@@ -1,0 +1,79 @@
+img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.input{
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+    width: 300px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+input::placeholder{
+   border: hidden;
+   border-width: 100px;
+}
+
+input:focus-visible{
+    outline: 2px solid rgb(0, 46, 253);
+}
+
+.label{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding-right: 198px;
+    font-family: "Anton", sans-serif;
+}
+.label2{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding-right: 257px;
+    font-family: "Anton", sans-serif;
+}
+.label3{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding-right: 169px;
+    font-family: "Anton", sans-serif;
+}
+.label4{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    padding-right: 255px;
+    font-family: "Anton", sans-serif;
+}
+
+.botao{
+    display: block;
+    margin: auto;
+    background-color: rgb(0, 46, 253);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    border-style: groove;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:rgb(0, 194, 253);
+}
+
+
+
+
+body{
+    background-color: rgba(255, 255, 255, 0.61);
+    align-items: center;
+}
+
